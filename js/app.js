@@ -99,7 +99,7 @@ function showCard() {
             Swal.fire({
               title: "congrats",
               html: 'Rating <i class="fa fa-star"></i><i class="fa fa-star"></i> <br>moves :' + move + '<br>time taken<br>' + hour + 'hours :' + minute + "minutes :" + second + 'seconds',
-              confirmButtonText: '<i class="fa fa-thumbs-up"></i> Rastart',
+              confirmButtonText: '<i class="fa fa-thumbs-up"></i> Restart',
               showCancelButton: true,
               cancelButtonText: "cancel",
               cancelButtonColor: 'red',
