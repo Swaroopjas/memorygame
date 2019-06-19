@@ -85,7 +85,7 @@ function showCard() {
             Swal.fire({
               title: "congrats",
               html: 'Rating <i class="fa fa-star"></i> <br>moves :' + move + '<br>time taken<br>' + hour + 'hours :' + minute + "minutes :" + second + 'seconds',
-              confirmButtonText: '<i class="fa fa-thumbs-up"></i> Reastart',
+              confirmButtonText: '<i class="fa fa-thumbs-up"></i> Restart',
               showCancelButton: true,
               cancelButtonText: "cancel",
               cancelButtonColor: 'red',
@@ -99,7 +99,7 @@ function showCard() {
             Swal.fire({
               title: "congrats",
               html: 'Rating <i class="fa fa-star"></i><i class="fa fa-star"></i> <br>moves :' + move + '<br>time taken<br>' + hour + 'hours :' + minute + "minutes :" + second + 'seconds',
-              confirmButtonText: '<i class="fa fa-thumbs-up"></i> Reastart',
+              confirmButtonText: '<i class="fa fa-thumbs-up"></i> Rastart',
               showCancelButton: true,
               cancelButtonText: "cancel",
               cancelButtonColor: 'red',
@@ -114,6 +114,7 @@ function showCard() {
               title: "congrats",
               html: 'Rating <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <br>moves :' + move + '<br>time taken<br>' + hour + 'hours :' + minute + "minutes :" + second + 'seconds',
               showCancelButton: true,
+              confirmButtonText:'<i class="fa fa-thumbs-up"></i> Restart',
               cancelButtonText: "cancel",
               cancelButtonColor: '#850000',
             }).then((result) => {
